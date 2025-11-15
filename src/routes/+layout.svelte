@@ -1,6 +1,5 @@
 <script lang="ts">
     import { page } from "$app/state";
-    import favicon from "$lib/assets/favicon.ico";
 
     // Added by myself
     import "./global.css";
@@ -13,7 +12,7 @@
 </script>
 
 <svelte:head>
-    <link rel="icon" href={favicon} />
+    <link rel="icon" href="/favicon.ico" />
 </svelte:head>
 
 <div class="layout" class:debug={cssUseDebugColors}>
